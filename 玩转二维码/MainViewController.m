@@ -114,7 +114,7 @@
     title.font = [UIFont systemFontOfSize:23];
     
     _page3View = [[UITextField alloc]initWithFrame:CGRectMake(65, 0, 235, 40)];
-    _page3View.placeholder = @"例如:www.1000phone.com";
+    _page3View.placeholder = @"例如:www.baidu.com";
     _page3View.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     _page3View.delegate = self;
     _textView = _page3View;
